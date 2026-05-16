@@ -1,0 +1,14 @@
+node_modules
+dist
+
+# Keep environment variables out of version control
+.env
+
+# Prisma generated client
+/src/generated/prisma
+
+# WhatsApp auth session (contains private keys — never commit!)
+auth_sessions
+
+# Downloaded images for OCR processing
+temp
